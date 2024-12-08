@@ -5,4 +5,3 @@ console.log(null>=0);
 
 // === check value and data type both
 console.log("9"===9);
-console.log('9'=='8');
