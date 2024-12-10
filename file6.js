@@ -53,3 +53,29 @@ console.log(typeof fruits); // object
 // null - typeof -> object
 // undefined - typeof -> object
 // array - typeof -> object
+
+// ++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+// Stack / Heap
+// Primitive - Stack
+// Non-Primitive - Heap
+
+let myName = "Nitish Kumar";
+
+let anotherName = myName;
+
+console.log(myName);
+console.log(anotherName);
+
+let userOne = {
+  name: "Ntish",
+  phone: 9999999999,
+  upi: "999999999@ybl",
+};
+
+let userTwo = userOne;
+
+userTwo.name = "Khushi";
+
+console.log(userOne);
+console.log(userTwo);
